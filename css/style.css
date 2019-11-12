@@ -1,0 +1,66 @@
+#addtag {
+    margin-bottom: 20px;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    left: 1.7rem;
+    top: 0.5rem;
+}
+.list-contact{
+    border-left:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+}
+.list-contact .fas{
+    margin-right: 5px;
+}
+.list-contact h2{
+    font-size: 15px;
+    margin-top: 6px;
+}
+#tag-m{
+    display: flex;
+}
+.control{
+    float: right;
+    display: none;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.item .fas{
+    margin-left: 8px;
+}
+.item{
+    display: flex;
+}
+#tag-m:hover .control{
+    display: block;
+}
+#tag-m:hover .badge{
+    display: none;
+}
+#tag-m {
+    padding: 0px;
+}
+#tag-m a{
+    padding: 10px 15px;
+}
+.list-group-item>.badge {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
